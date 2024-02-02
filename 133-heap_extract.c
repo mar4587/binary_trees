@@ -8,7 +8,7 @@ void top_down_heapify(heap_t *root);
 /**
  * heap_extract - Extracts the root node of a Max Binary Heap
  *
- * @root: Double the pointer to root node of the heap
+ * @root: Double A pointer to root node of the heap
  *
  * Return: Value stored in the root node, or 0 on failure
  */
@@ -80,7 +80,7 @@ heap_t *get_last_node(heap_t *root, size_t index, size_t size)
  * top_down_heapify - Moves the node at the top of the tree down to its
  * correct position in the Max Binary Heap
  *
- * Description: This function compares the value of the curr node with the
+ * Description: The code compares the value of the curr node with the
  * values of its left and right children. If the value of the curr node is
  * less than the value of either of its children, the values of the curr
  * node and the child node with the vlarge value are swapped. This process
